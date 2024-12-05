@@ -1,6 +1,25 @@
-# Nvflare local training notebooks
+# NVFlare Local Training Notebooks
 
 This notebook provides an example implementation of a binary image classification system using PyTorch. The code demonstrates how to structure a custom dataset loader and a CNN architecture, using chest X-ray classification (pneumonia/normal) as an example case.
+
+## Available Notebooks
+- `local_training.ipynb`: Local development and training notebook
+- `inference.ipynb`: Model inference and testing notebook
+
+## Environment Setup
+
+### Virtual Environment
+Using virtualenvwrapper:
+```bash
+# Create new environment
+mkvirtualenv your_env_name
+
+# Activate environment
+workon your_env_name
+
+# Deactivate environment when done
+deactivate
+```
 
 ## Example Model Architecture
 
@@ -66,10 +85,7 @@ optimizer = optim.Adam(model.parameters(), lr=0.001)
 ```
 
 ## Requirements
-- PyTorch
-- Pillow
-- NumPy
-- torchvision
+- requirements.txt
 
 ## Notes
 - This is a template implementation that should be modified for your specific use case
