@@ -1,6 +1,6 @@
 # NVFlare Local Training Notebooks
 
-This notebook provides an example implementation of a binary image classification system using PyTorch. The code demonstrates how to structure a custom dataset loader and a CNN architecture, using chest X-ray classification (pneumonia/normal) as an example case.
+These notebooks provide an example implementation of a binary image classification system using PyTorch. The code demonstrates how to structure a custom dataset loader and a CNN architecture, using chest X-ray classification (pneumonia/normal) as an example case.
 
 ## Available Notebooks
 - `local_training.ipynb`: Local development and training notebook
