@@ -8,5 +8,8 @@ pillow
 torchvision
 ipykernel
 tqdm
-fastapi
-uvicorn
+pylibjpeg-openjpeg 
+openslide-python 
+tiatoolbox 
+histoencoder
+ipywidgets
