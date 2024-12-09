@@ -5,6 +5,7 @@ These notebooks provide an example implementation of a binary image classificati
 ## Available Notebooks
 - `local_training.ipynb`: Local development and training notebook
 - `inference.ipynb`: Model inference and testing notebook
+- `wsi-torch-tutorial.ipynb`: Example tutorial from pytorch on using WSI ( this is a standalone example just for reference)
 
 ## Environment Setup
 
